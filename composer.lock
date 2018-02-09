@@ -323,17 +323,17 @@
         },
         {
             "name": "fei/notification-client",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:flash-global/notification-client.git",
-                "reference": "92766b4514d4ff746ee494e8d14402b2b258600d"
+                "reference": "d3b8cfb10fa30c2ffc726390a8c351b19a7b8aa6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://composer.flash-global.net/dist/fei-notification-client-92766b4514d4ff746ee494e8d14402b2b258600d-zip-a73650.zip",
-                "reference": "92766b4514d4ff746ee494e8d14402b2b258600d",
-                "shasum": "f28976a4bba85d778c88607dc1194cf3b256c4c4"
+                "url": "https://composer.flash-global.net/dist/fei-notification-client-d3b8cfb10fa30c2ffc726390a8c351b19a7b8aa6-zip-aa794f.zip",
+                "reference": "d3b8cfb10fa30c2ffc726390a8c351b19a7b8aa6",
+                "shasum": "da395f06524b6a5e198faf3d5b200fa407f19c85"
             },
             "require": {
                 "fei/api-client": "^1.1",
@@ -343,7 +343,7 @@
                 "codeception/codeception": "^2.2",
                 "jakub-onderka/php-parallel-lint": "^0.9.2",
                 "phpmd/phpmd": "^2.6",
-                "phpro/grumphp": "^0.11.1",
+                "phpro/grumphp": "~0.9.0",
                 "sebastian/phpcpd": "^2.0",
                 "squizlabs/php_codesniffer": "^2.7"
             },
@@ -365,10 +365,10 @@
             ],
             "description": "Flash applicative Notification - client component",
             "support": {
-                "source": "https://github.com/flash-global/notification-client/tree/v1.0.0",
+                "source": "https://github.com/flash-global/notification-client/tree/master",
                 "issues": "https://github.com/flash-global/notification-client/issues"
             },
-            "time": "2017-09-15T13:36:40+00:00"
+            "time": "2018-02-09T10:44:41+00:00"
         },
         {
             "name": "guzzle/guzzle",
