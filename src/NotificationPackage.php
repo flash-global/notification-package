@@ -49,6 +49,10 @@ class NotificationPackage
             ]
         ];
 
+        if (array_key_exists('asyncTransport', $params)) {
+            $service['setters']['setAsyncTransport'] = $params['asyncTransport'];
+        }
+
         $app->getServicesFactory()->registerService($service);
     }
 }

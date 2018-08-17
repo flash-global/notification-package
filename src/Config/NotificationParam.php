@@ -1,6 +1,7 @@
 <?php
 namespace Fei\Service\Notification\Package\Config;
 
+use Fei\ApiClient\Transport\AsyncTransportInterface;
 use Fei\ApiClient\Transport\SyncTransportInterface;
 use ObjectivePHP\Config\SingleValueDirective;
 
@@ -23,7 +24,7 @@ class NotificationParam extends SingleValueDirective
      * @param string $baseUrl
      * @return NotificationParam
      */
-    public function setBaseUrl(string $baseUrl): self
+    public function setBaseUrl(string $baseUrl)
     {
         $this->value['baseUrl'] = $baseUrl;
 
@@ -31,12 +32,29 @@ class NotificationParam extends SingleValueDirective
     }
 
     /**
+     * Set Sync transport
+     *
      * @param SyncTransportInterface $transport
+     *
      * @return NotificationParam
      */
-    public function setTransport(SyncTransportInterface $transport): self
+    public function setTransport(SyncTransportInterface $transport)
     {
         $this->value['transport'] = $transport;
+
+        return $this;
+    }
+
+    /**
+     * Set Async transport
+     *
+     * @param AsyncTransportInterface $transport
+     *
+     * @return $this
+     */
+    public function setAsyncTransport(AsyncTransportInterface $transport)
+    {
+        $this->value['asyncTransport'] = $transport;
 
         return $this;
     }
