@@ -2,11 +2,11 @@
     "name": "fei/notification-package",
     "description": "Notification client package integration for Objective PHP applications",
     "type": "library",
-    "license": "proprietary",
+    "license": "GPL-3.0",
     "authors": [
         {
-            "name": "Boris Cerati",
-            "email": "bce@opcoding.eu"
+            "name": "Vincent Simonin",
+            "email": "vsi@redspher.com"
         }
     ],
     "autoload": {
@@ -14,14 +14,8 @@
             "Fei\\Service\\Notification\\Package\\": "src/"
         }
     },
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://composer.flash.global"
-        }
-    ],
     "require": {
         "objective-php/application": "^1.0",
-        "fei/notification-client": "^1.0"
+        "fei/notification-client": "^1.2"
     }
 }
