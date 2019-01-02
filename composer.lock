@@ -621,22 +621,22 @@
         },
         {
             "name": "fei/notification-client",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flash-global/notification-client.git",
-                "reference": "3889744b63203f02e5d0c4e63cdb0a242dbaea5e"
+                "reference": "3c963bdb14484b355690356e76485f5029c2a220"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flash-global/notification-client/zipball/3889744b63203f02e5d0c4e63cdb0a242dbaea5e",
-                "reference": "3889744b63203f02e5d0c4e63cdb0a242dbaea5e",
+                "url": "https://api.github.com/repos/flash-global/notification-client/zipball/3c963bdb14484b355690356e76485f5029c2a220",
+                "reference": "3c963bdb14484b355690356e76485f5029c2a220",
                 "shasum": ""
             },
             "require": {
                 "fei/api-client": "^1.1.0",
-                "fei/notification-common": "^1.2.1",
-                "php": ">=7.0"
+                "fei/notification-common": "^1.2.2",
+                "php": ">=7.2"
             },
             "require-dev": {
                 "codeception/codeception": "^2.2",
@@ -664,20 +664,20 @@
                 }
             ],
             "description": "Flash applicative Notification - client component",
-            "time": "2018-12-28T22:55:17+00:00"
+            "time": "2018-12-29T00:07:36+00:00"
         },
         {
             "name": "fei/notification-common",
-            "version": "v1.2.2",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flash-global/notification-common.git",
-                "reference": "7b2aafa0d31bc394217db0f2883c9212fc342661"
+                "reference": "378291bb0a59907455b651865781b66be4f5b140"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flash-global/notification-common/zipball/7b2aafa0d31bc394217db0f2883c9212fc342661",
-                "reference": "7b2aafa0d31bc394217db0f2883c9212fc342661",
+                "url": "https://api.github.com/repos/flash-global/notification-common/zipball/378291bb0a59907455b651865781b66be4f5b140",
+                "reference": "378291bb0a59907455b651865781b66be4f5b140",
                 "shasum": ""
             },
             "require": {
@@ -717,7 +717,7 @@
                 "components",
                 "notification"
             ],
-            "time": "2018-12-29T00:00:33+00:00"
+            "time": "2019-01-02T20:48:25+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
