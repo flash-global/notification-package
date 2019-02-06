@@ -9,6 +9,12 @@
             "email": "vsi@redspher.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@github.com:flash-global/notification-client.git"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Fei\\Service\\Notification\\Package\\": "src/"
@@ -16,6 +22,6 @@
     },
     "require": {
         "objective-php/application": "^1.0",
-        "fei/notification-client": "^1.2"
+        "fei/notification-client": "^1.0"
     }
 }
